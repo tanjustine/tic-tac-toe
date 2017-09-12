@@ -1,0 +1,114 @@
+/*name_of_style: value*/
+*{
+		text-align: center;
+		margin: auto;
+	}
+	body {
+		background-color: ghostwhite;
+		background-image: url("https://image.freepik.com/free-photo/abstract-background-with-ink_1112-820.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#board {
+		margin-top: 15px;
+		border-collapse: collapse;
+		font-family: Raleway, sans-serif;
+		font-weight: 100;
+		font-size: 90px;
+		width: 30%;
+		margin-bottom: 15px;
+	}
+	.odd {
+		background-color: mediumpurple;
+		color: white;
+		border-bottom-left-radius: 0.6em;
+		border-top-right-radius: 0.6em;
+		height: 130px;
+	}
+	.even {
+		background-color: #e6e6fa;
+		color: darkslategrey;
+		border-bottom-left-radius: 0.6em; /* Source: https://www.w3schools.com/cssref/css3_pr_border-radius.asp */
+		border-top-right-radius: 0.6em;
+		height: 130px;
+	}
+	.odd:hover {
+		background-color:  #c2adeb;
+		transform: scale(1.1);
+	}
+	.even:hover {
+		background-color: #f5f5fd;
+		transform: scale(1.1);
+	}
+	.odd:active {
+		background-color: #7547d1;
+	}
+	.even:active {
+		background-color: #cfcfe1;
+	}
+	h1 {
+		font-family: Raleway, sans-serif;
+		font-weight: 400;
+		font-size: 60px;
+		color: #7547d1;
+		margin-bottom: 3px;
+	}
+	h5 {
+		font-size: 17px;
+		font-family: Raleway, sans-serif;
+		margin-bottom: 3px;
+	}
+	h6 {
+		font-size: 15px;
+		font-family: Raleway, sans-serif;
+		margin-bottom: 3px;
+		color: #7547d1;
+	}
+	p {
+		font-size: 55px;
+	}
+	#startbutton {
+		background-color: mediumpurple;
+		border: mediumpurple;
+		width: 320px;
+		height: 55px;
+		border-radius: 10px;
+		margin-right: 10px;
+	}
+	#endbutton {
+		background-color: mediumpurple;
+		border: mediumpurple;
+		width: 150px;
+		height: 55px;
+		border-radius: 10px;
+		margin-right: 10px;
+	}
+	#resetbutton {
+		background-color: #e6e6fa;
+		color: darkslategrey;
+		width: 150px;
+		height: 55px;
+		border-radius: 10px;
+	}
+	h2 {
+		margin: -5px;
+		font-size: 27px;
+	}
+	#footer {
+		margin: 12px auto;
+		color: white;
+		font-size: 18px;
+	}
+	#navbarbottom {
+		background-color: mediumpurple;
+	}
+	#icon {
+		margin: -10px;
+		display: block;
+		width: 40px;
+		height: 40px;
+	}
+	.centered {
+		margin: auto;
+		max-width: 405px;
+	}
